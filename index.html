@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Yadav</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <a href="#about"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">ABOUT</a>
+            <a href="#resume"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">RESUME</a>
+            <a href="#contact"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">CONTACT</a>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+        <section class="image-section w3-quarter w3-fixed w3-padding-small">
+            <!--IMAGE/AVATAR-->
+            <img src="./Rohit_Yadav_1_DP-min.png" class="w3-circle w3-border w3-border-sand"
+                style="border-width: 3px !important;" />
+            <!--SCIAL NETWORK BUTTONS-->
+            <div class="links w3-margin-top w3-padding-small">
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/rky71992/"
+                    target="_blank">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </div>
+            <!--CV DOWNLOAD BUTTON-->
+            <div class="w3-container w3-padding-16">
+                <a href="./Rohit-Yadav-CV.pdf"
+                    class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large"
+                    target="_blank" download="Rohit-Yadav.pdf">
+                    <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+                    <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+                </a>
+            </div>
+        </section>
+
+        <!--CV CONTENT SECTION-->
+        <section class="w3-threequarter w3-padding-large w3-right">
+            <!--DESKTOP NAVIGATION-->
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+                <a href="#home"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM
+                    VITAE</a>
+                <a href="#contact"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+                <a href="#resume"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+                <a href="#about"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+            </div>
+            <div class="content-container w3-margin-top-2">
+                <!--HOME SECTION-->
+                <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+                    <h1>Rohit Yadav</h2>
+                        <h2>Software Engineer</h3>
+                </div>
+
+                <!--ABOUT SECTION-->
+                <div id="about" class="w3-container w3-margin-top-2 w3-cursive w3-large">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+                    <p class="w3-margin-top-2">
+                        Experienced Software Engineer specializing in Backend development with a track record of 3+
+                        years in the dynamic fields of Fintech, Security, and Media Broadcasting. Adept at crafting
+                        robust and
+                        scalable solutions, my expertise extends across coding, database management, security, and
+                        proficient project management.
+                    </p>
+                    <p class="w3-margin-top-2">
+                        Passionate about trekking and travel, I find joy in exploring new landscapes. Fictional novels
+                        are my escape, captivating my imagination. Adventure on trails and within pages, my heart finds
+                        fulfillment.
+                    </p>
+                </div>
+
+                <!--RESUME-->
+                <div id="resume" class="w3-container w3-margin-top-2 w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+
+                        <!--EMPLOYMENT HISTORY SECTION-->
+                        <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <h4>Senior Software Engineer at <a href="https://nimbbl.biz/">Nimbbl</a></h4>
+                                <p>August 2022 - November 2023</p>
+                                <div>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Python3</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Tornado</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">PostgreSql</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Redis</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Odoo ERP</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Docker</span>
+                                </div>
+                                <ul class="w3-ul" style="font-weight: 500;">
+                                    <li><b>•</b> Spearheaded the seamless integration of diverse Payment Service
+                                        Provider (PSP) workflows, emphasizing scalability for enhanced system
+                                        performance.</li>
+                                    <li><b>•</b> Managed and implemented Odoo ERP features, developing GraphQL queries
+                                        for comprehensive Dashboard Endpoints dedicated to data and analytics.</li>
+                                    <li><b>•</b> Introduction and creation of OpenAPI Specification documentation for
+                                        the entire project, hosted at <a
+                                            href="https://nimbbl.biz/docs/api-reference/introduction/">Nimbbl Docs</a>
+                                        providing clarity and accessibility.
+                                        Integrated crucial security features to safeguard confidentiality following PCI
+                                        guidelines.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-red">
+                            <div class="w3-margin-left">
+                                <h4>Software Engineer ML/AI at <a href="https://webcraft.co.in/">WebcraftIT</a></h4>
+                                <p>August 2021 - December 2021 </p>
+                                <div>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Python3</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Flask</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">PostgreSql</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Machine Learning</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">OCR</span>
+                                </div>
+                                <ul class="w3-ul" style="font-weight: 500;">
+                                    <li><b>•</b> Led as Release Manager, overseeing project deployment, and ensuring
+                                        smooth workflows.</li>
+                                    <li><b>•</b> Developed APIs from the ground up for Open Source and 3rd Party OCR
+                                        models. Additionally, integrated services for duplicate question detection and
+                                        long-answer evaluation models, enhancing overall project functionality.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <h4>Software Engineer at <a href="https://karthavya.com/">Karthavya Technologies</a>
+                                </h4>
+                                <p>February 2018 - July 2019 </p>
+                                <div>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Python2</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">C++</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Flask</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">MongoDB</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">MySQL</span>
+                                </div>
+                                <ul class="w3-ul" style="font-weight: 500;">
+                                    <li><b>•</b> Proficiently developed and integrated REST APIs in Python across
+                                        various products, automating deployments and tasks.</li>
+                                    <li><b>•</b> Demonstrated expertise in working with MySQL and MongoDB databases, and
+                                        executed seamless OAuth and LDAP integrations. Additionally, crafted a C++ Qt
+                                        framework-based image editor and subtitle adder for frontend applications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---EDUCATION SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY EDUCATION</h3>
+                        <div class="w3-leftbar w3-border-red">
+                            <div class="w3-margin-left">
+                                <h4>M.Tech, Machine Learning and AI</h4>
+                                <h5>Lovely Professional University</h5>
+                                <p>August 2019 - July 2021 </p>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <h4>M.Tech, Computer Science Engineering</h4>
+                                <h5>Lovely Professional University</h5>
+                                <p>August 2013 - June 2017 </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--SKILLS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY SKILLS</h3>
+                        <div>
+                            <div class="w3-leftbar w3-border-red">
+                                <div class="w3-margin-left">
+                                    <h4>Languages & Frameworks</h4>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Python</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Flask</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Tornado</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">C++</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Qt</span>
+                                </div>
+                            </div>
+
+                            <div class="w3-leftbar w3-border-blue">
+                                <div class="w3-margin-left">
+                                    <h4>Databases</h4>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">PostgreSql</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Redis</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">MongoDB</span>
+                                </div>
+                            </div>
+
+                            <div class="w3-leftbar w3-border-red">
+                                <div class="w3-margin-left">
+                                    <h4>Others</h4>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Docker</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Machine Learning</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">OpenAPI</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Odoo ERP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---PROJECTS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY PROJECTS</h3>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <h4>Email-Service</h4>
+                                <p>February 2024 - February 2024 </p>
+                                <div>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Python</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Flask</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">PostgreSql</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Redis</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">Docker</span>
+                                </div>
+                                <div>
+                                    <a href="https://test.pypi.org/project/mailservice-mail/1.0.2/" target="_blank">
+                                        <h5><b>Email Service PIP Package</b></h5>
+                                    </a>
+                                    <ul class="w3-ul" style="font-weight: 500;">
+                                        <li><b>•</b> Created a PIP package which sends email using different 3rd party
+                                            email services. <a href="https://github.com/rky71992/email_pip"
+                                                target="_blank"><b>Code</b></a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/rky71992/email_service" target="_blank">
+                                        <h5><b>Email Service</b><i>(In development)</i></h5>
+                                    </a>
+                                    <ul class="w3-ul" style="font-weight: 500;">
+                                        <li><b>•</b> Created a Flask app which utilizes the Email Service PIP Package to
+                                            send mail.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-red">
+                            <div class="w3-margin-left">
+                                <h4>Pi-Encryption Suite</h4>
+                                <p>February 2017 - May 2017 </p>
+                                <div>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">C#</span>
+                                    <span class="w3-tag w3-padding w3-blue w3-center">C++</span>
+                                </div>
+                                <ul class="w3-ul" style="font-weight: 500;">
+                                    <li><b>•</b> Created UI interface for text symmetric encryption/decryption in C#.
+                                    </li>
+                                    <li><b>•</b> The key generation algorithm uses never ending digits of Pi. At the
+                                        same time it was being used for CAPTCHA generation.</li>
+                                    <li><b>•</b> The project was selected for induction demo for next year students.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---PUBLICATION SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY PUBLICATIONS</h3>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <a href="https://www.researchgate.net/publication/357562227_Feature_and_Decision_Fusion_for_Breast_Cancer_Detection"
+                                    target="_blank">
+                                    <h4>Feature and Decision Fusion for Breast Cancer Detection</h4>
+                                </a>
+                                <h5>International Conference on Data Analytics & Management (ICDAM-2021)</h5>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-red">
+                            <div class="w3-margin-left">
+                                <a href="https://www.springerprofessional.de/en/breast-cancer-detection-based-on-decision-fusion-of-machine-lear/19276566"
+                                    target="_blank">
+                                    <h4>Breast Cancer Detection Based on Decision Fusion of Machine Learning Algorithms
+                                    </h4>
+                                </a>
+                                <h5> Advanced Informatics for Computing Research (2021)</h5>
+                            </div>
+                        </div>
+                        <div class="w3-leftbar w3-border-blue">
+                            <div class="w3-margin-left">
+                                <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1022/1/012116"
+                                    target="_blank">
+                                    <h4>Dental cavity Classification of using Convolutional Neural Network</h4>
+                                </a>
+                                <h5>1st International Conference on Computational Research and Data Analytics
+                                    (ICCRDA-2020)</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--REFERENCE SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY REFERENCES</h3>
+                        <a href="https://www.linkedin.com/in/nihalsharma/" target="_blank">
+                            <h4>Nihal Sharma</h4>
+                        </a>
+                        <h5>Assistant Vice President at Capri Global Capital Ltd</h5>
+                        <a href="https://www.linkedin.com/in/vasudha-maini-68b39332/" target="_blank">
+                            <h4>Vasudha Maini</h4>
+                        </a>
+                        <h5>Head Of Quality Assurance at Nimbbl</h5>
+                    </div>
+                </div>
+
+                <!--CONTACT SECTION-->
+                <div id="contact" class="w3-container w3-margin-top-2 w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT
+                        DETAILS</h3>
+                        <div class="w3-margin-top-2" style="font-weight: 500;">
+                            <p>Name: Rohit Yadav</p>
+                            <p>Phone number: +91 98769 96571</p>
+                            <p>E-mail: rky71992@gmail.com</p>
+                        </div>
+                </div>
+
+                <!--END OF CV SECTION-->
+        </section>
+    </section>
+    <script>
+        // Function to toggle mobile navigation
+        function toggleNavigation() {
+            let nav = document.getElementById("mobile-nav");
+            if (nav.classList.contains('w3-show')) {
+                nav.classList.remove('w3-show');
+            } else {
+                nav.classList.add('w3-show');
+            }
+        }
+    </script>
+    <script>
+        // Script to load feather icons
+        feather.replace()
+    </script>
+</body>
+
+</html>
